@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Me</title>
+	<link rel="stylesheet" href="C:\Users\SHIVANGI\PycharmProjects\DAY-41_WebFoundationHTML\css\styles.css">
+</head>
+<body>
+	<h1>My Contact Details</h1>
+	<ul>
+		<li><code>Email Address</code> : shivangi2250@gmail.com</li>
+	</ul>
+	<hr>
+	<form action="mailto:shivangi2250@gmail.com" method="post" enctype="text/plain">
+	<table>
+		<tr>
+			<td><label for="name"> Your Name(2 to 20 characters) : </label></td>
+			<td><input type="text" id="name" name="yourName" required maxlength="25" minlength="2" size="15"></td>
+		</tr>
+		<tr>
+			<td><label>Email id : </label></td>
+			<td><input type="email" name="yourEmail" value=""></td>
+		</tr>
+		<tr>
+			<td><label>D.O.B : </label></td>
+			<td><input type="date" name="yourDate" value=""></td>
+		</tr>
+		<tr>
+			<td><label>Your message:</label></td>
+			<td><textarea name="yourMessage" rows="10" cols="40"></textarea></td>
+		</tr>
+		<tr>
+			<td><input type="submit" value="Submit"></td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>

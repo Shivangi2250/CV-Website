@@ -1,0 +1,50 @@
+html {
+min-height:100%
+}
+body {
+background: linear-gradient(90deg,#444d9f,#b5b0d1);
+height:100%
+}
+
+hr{
+border-style:none;
+border-top:dotted;
+border-color:#FEC260;
+border-width:5px;
+width:3%;
+}
+h1{
+font-family: Georgia;
+color:#D3CEDF;
+}
+
+h3 {
+color:#C9BBCF;
+}
+p {
+color:#395B64;
+}
+td {
+color: #B2C8DF;
+}
+li {
+color:#B2C8DF;
+}
+input {
+background-color:#F9F9F9;
+border:none;
+outline:none;
+}
+textarea {
+background-color:#F9F9F9;
+border:none;
+}
+
+img {
+border: 5px solid #395B64;
+border-radius:50%
+}
+
+th {
+color: #B2C8DF;
+}
